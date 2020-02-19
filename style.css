@@ -1,0 +1,409 @@
+/* 1. Theme default css */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Poppins:300,400,500,600,700');
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* font-family: 'Oswald', sans-serif; */
+
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+	float: left
+}
+
+.f-right {
+	float: right
+}
+
+.fix {
+	overflow: hidden
+}
+
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #2B96CC;
+	text-decoration: none;
+}
+
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #313131;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 9px;
+	color: #7e7e7e;
+	margin-bottom: 15px;
+}
+
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+
+label {
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+
+*::-moz-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+
+.separator {
+	border-top: 1px solid #f2f2f2
+}
+
+.container-box {
+	width: 97%;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.left-side-info.bangla {
+	float: left;
+	width: 50%;
+}
+
+.dcr-name-section-area {
+	margin-top: 9px;
+}
+
+.dcr-name {
+	color: #027b36;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.dcr-destination p {
+	font-size: 16px;
+	color: #3e2e91;
+	font-weight: 500;
+	line-height: 6px;
+}
+
+.dcr-address p {
+	color: #01762f;
+	line-height: 8px;
+}
+
+.dcr-address span {
+	font-weight: 600;
+}
+
+.dcr-email p {
+	font-size: 16px;
+	color: #3e2e91;
+	font-weight: 500;
+}
+
+.patient-info-section ul li {
+	display: inline-block;
+	font-size: 15px;
+	color: #1d1d1d;
+	font-weight: 600;
+}
+
+header.hdr-sc,
+main.main-sc,
+footer.ftr-sc {
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.patient-info-section {
+	border-top: 3px solid #3b734c;
+	border-bottom: 3px solid #19077f;
+	margin-top: 15px;
+}
+
+.patient-Drugs-section h2 {
+	font-size: 15px;
+	color: #151515;
+	font-weight: 500;
+	margin: 0;
+    padding-bottom: 7px;
+}
+
+.patient-Drugs-section p {
+	font-size: 18px;
+	line-height: 17px;
+	color: #000;
+	font-weight: 500;
+}
+
+.pescription-patient-body-info {
+	padding: 30px;
+	float: left;
+	width: 17%;
+}
+
+.pescription-patient-tablet-info {
+	float: left;
+	width: 56%;
+	padding: 24px 36px;
+	border-left: 1px solid #000;
+}
+
+.pescription-patient-body-info div {
+	padding-bottom: 15px;
+}
+
+.pescription-patient-body-info li {
+	line-height: 25px;
+	font-size: 14px;
+}
+
+h3.rightt-side-title {
+	font-size: 43px;
+	padding-bottom: 22px;
+}
+
+.dcr-patient-tablet div {
+	padding-bottom: 21px;
+}
+
+footer.ftr-sc h3,
+footer.ftr-sc h5 {
+	font-size: 12px;
+	color: #027b36;
+	font-weight: 900;
+	padding-top: 12px;
+}
+
+footer.ftr-sc h5 {
+	font-size: 14px;
+}
+
+footer.ftr-sc p {
+	color: #0245a0;
+	line-height: 0px;
+	font-size: 12px;
+}
+
+.pescription-bottom-point {
+	border-top: 3px solid blue;
+}
+
+.mobile-info.text-center {
+	margin-top: 33px;
+}
+
+.patient-drugs-time {
+	float: left;
+	width: 50%;
+}
+
+.affter-eating {
+	float: left;
+	width: 35%;
+}
+
+.advices_sc-dcr {
+	clear: both;
+	overflow: hidden;
+}
+
+.patient-drugs-time h5 {
+	font-weight: 600;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+/*.right-side-tab-patient-area {
+	overflow: hidden;
+	padding-bottom: 17px;
+}
+*/
+.singneture {
+	text-align: center;
+	float: right;
+}
+
+.singneture img {
+	width: 100px;
+}
+
+li.name {
+	width: 45%;
+}
+
+li.age {
+	width: 12%;
+}
+
+li.sex {
+	width: 17%;
+}
+
+li.date {
+	width: 20%;
+}
+
+.patient-info-section ul {
+	margin: 7px 0;
+}
+
+.left-side-info-footer {
+	float: left;
+	width: 42%;
+}
+
+.mobile-info {
+	float: left;
+	width: 23%;
+	margin-top: 44px;
+}
+
+.right-side-info-footer {
+	text-align: right;
+}
+
+.right-side-info {
+	text-align: right;
+}
+
+.ftr-dcr-time-table h6 {
+	margin: 0;
+	color: #027b36;
+}
+
+.mobile-info p {
+	font-size: 11px!important;
+}
+.chief-complaints ul{
+	margin: 0px;
+}
+.medicine-date {
+    overflow: hidden;
+}
+.cap-name-are h5 {
+    margin: 0;
+    font-weight: 500;
+}
+.patient-drugs-time ul li {
+    list-style: none;
+}
+.peccription-title h3 {
+    margin: 0;
+    padding-bottom: 14px;
+}
+.patient-main-medicine-section {
+    margin: 0 26px;
+}
